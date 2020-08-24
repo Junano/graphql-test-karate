@@ -1,0 +1,8 @@
+query getCityByName($id: [String!]
+){
+    getCityById(id:$id){
+        name
+        country
+        id
+    }
+}
